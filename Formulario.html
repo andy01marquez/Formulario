@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/stylos_formulario.css"/>
+</head>
+<body>
+    <header>
+        <h1 class="titulo1">iMODELO</h1> 
+    </header>
+    <h2 class="titulo2">Formulario de registro</h2>
+    <br>
+
+    <fieldset>
+    <legend class="titulo3">¿QUIÉN ERES?</legend>
+    <form action="/action_page.php">
+        <label class="titulo4" for="Nombre">Nombre</label><br>
+        <input class="joinBtn yellow" type="text" id="Nombre" name="Nombre"><br><br>
+        <label class="titulo4" for="Apellido">Apellido</label><br>
+        <input class="joinBtn yellow" type="text" id="Apellido" name="Apellido"><br><br>
+        <label class="titulo4" for="Correo electrónico">Correo electrónico</label><br>
+        <input class="joinBtn yellow" type="text" id="Correo electrónico" name="Correo electrónico"><br><br>
+        <select class="joinBtn yellow" name="Fecha de nacimiento">
+            <option class="joinBtn yellow" value="Día">Día</option>
+            <option value="Día">1</option>
+            <option value="Día">2</option>
+            <option value="Día">3</option>
+            <option value="Día">4</option>
+            <option value="Día">5</option>
+        </select>
+        <select class="joinBtn yellow">
+            <option class="joinBtn yellow" value="Mes">Mes</option>
+            <option value="Mes">Ene</option>
+            <option value="Mes">Feb</option>
+            <option value="Mes">Mar</option>
+            <option value="Mes">Abr</option>
+            <option value="Mes">May</option>
+        </select>
+        <select class="joinBtn yellow">
+            <option value="Año">Año</option>
+            <option value="Año">2000</option>
+            <option value="Año">2001</option>
+            <option value="Año">2002</option>
+            <option value="Año">2003</option>
+            <option value="Año">2005</option>
+        </select>
+    </form>
+</fieldset>
+<br>
+
+<fieldset>
+    <legend class="titulo3">¿DE DÓNDE ERES?</legend>
+    <form action="/action_page.php">
+        <label class="titulo4" for="Ciudad">Ciudad</label><br>
+        <input class="joinBtn yellow" type="text" id="Ciudad" name="Ciudad"><br><br>
+        <label class="titulo4" for="Código Postal">Código Postal</label><br>
+        <input class="joinBtn yellow" type="text" id="Código Postal" name="Código Postal"><br><br>
+        <select class="joinBtn" name="País">
+            <option class="joinBtn yellow" value="País">País</option>
+            <option value="País">México</option>
+            <option value="País">Estados Unidos</option>
+            <option value="País">Canadá</option>
+            <option value="País">Australia</option>
+            <option value="País">China</option>
+        </select>
+    </form>
+</fieldset>
+</body>
+</html>
