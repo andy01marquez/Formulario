@@ -24,4 +24,10 @@ h2.titulo2{
 .yellow:focus{
     background: yellow;
 }
-    
+.titulo5{
+    font: bold 11pt/13pt arial, serif;
+}
+.boton{
+    text-align: center;
+    font: bold 14pt/16pt arial, serif;
+}
